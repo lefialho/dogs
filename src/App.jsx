@@ -33,7 +33,7 @@ export function App() {
               {/* O : pega qualquer rota dinâmica. */}
               <Route path="foto/:id" element={<Photo />} />
               <Route path="perfil/:user" element={<UserProfile />} />
-              {/* O * pega qualquer rota que não seja especificada acima */}
+              {/* O * pega qualquer rota que não seja especificada acima. */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
