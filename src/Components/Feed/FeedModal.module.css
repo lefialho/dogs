@@ -1,0 +1,18 @@
+.modal {
+  display: grid;
+  place-content: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, .4);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 2rem calc(4rem) 2rem 4rem; /*15px da barra de rolagem*/
+}
+
+@media (max-width: 40rem) {
+  .modal {
+    padding: 2rem calc(4rem) 2rem 2rem; /*15px da barra de rolagem*/
+  }
+}

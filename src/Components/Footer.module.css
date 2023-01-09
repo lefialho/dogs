@@ -1,0 +1,17 @@
+.footer {
+  display: grid;
+  place-content: center;
+  background-color: #fb1;
+  padding: 3rem 1rem;
+  height: var(--footer-height);
+  text-align: center;
+  color: #764701;
+}
+
+.footer svg {
+  justify-self: center;
+}
+
+.footer p {
+  margin-top: 1rem;
+}
